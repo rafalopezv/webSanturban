@@ -9,6 +9,12 @@ El presente proyecto pretende comprender las características del debate medioam
 
 ## Alcances
 
+Esta web no sustituye la eventual publicación académica, sino que la complementan narrando todas las decisiones técnicas que llevan/llevaron al producto final.
+
+Asimismo, el propósito es hacer reproducibles todas las decisiones. que incluyen esta página y el lenguaje de programación [R](https://www.r-project.org/) para la extracción, análisis y visualización de datos. En consecuencia, todo el código de programación se encuentra [en este repositorio de acceso público](https://github.com/rafalopezv/webSanturban)
+
+La descarga de tweets se hizo utilizando la [API para investigación académica de Twitter](https://developer.twitter.com/en/products/twitter-api/academic-research). En el repositorio no se encontrarán todos los tweets descargados por decisión metodológica de los investigadores y la presentación de esta a Twitter.
+
 ## Responsables
 
 [PhD. Juan Sebastián López](https://scholar.google.es/citations?user=AD16060AAAAJ&hl=es). Investigador principal

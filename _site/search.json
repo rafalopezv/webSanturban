@@ -11,14 +11,14 @@
     "href": "index.html#alcances",
     "title": "Proyecto Santurbán",
     "section": "Alcances",
-    "text": "Alcances"
+    "text": "Alcances\nEsta web no sustituye la eventual publicación académica, sino que la complementan narrando todas las decisiones técnicas que llevan/llevaron al producto final.\nAsimismo, el propósito es hacer reproducibles todas las decisiones. que incluyen esta página y el lenguaje de programación R para la extracción, análisis y visualización de datos. En consecuencia, todo el código de programación se encuentra en este repositorio de acceso público\nLa descarga de tweets se hizo utilizando la API para investigación académica de Twitter. En el repositorio no se encontrarán todos los tweets descargados por decisión metodológica de los investigadores y la presentación de esta a Twitter."
   },
   {
     "objectID": "index.html#responsables",
     "href": "index.html#responsables",
     "title": "Proyecto Santurbán",
     "section": "Responsables",
-    "text": "Responsables\nJuan Sebastián López. Investigador principal\nRafael López Valverde. Analista de datos y desarrollador web"
+    "text": "Responsables\nPhD. Juan Sebastián López. Investigador principal\nMPP. Rafael López Valverde. Analista de datos y desarrollador web"
   },
   {
     "objectID": "about.html",
