@@ -1,11 +1,20 @@
 ---
-title: "webSanturban"
+title: ""
+lang: es
 ---
 
-This is a Quarto website.
+## Introducción
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+El presente proyecto pretende comprender las características del debate medioambiental presente en Twitter respecto a las tentativas de explotación minera en el Páramo de Santurbán en Colombia. El análisis de los debates se realizará a partir de la extracción de todos los tweets encontrados bajo una serie de etiquetas o 'hashtags' entre los enero de 2015 y noviembre de 2022.
 
-```{r}
-1 + 1
-```
+## Alcances
+
+## Responsables
+
+[Juan Sebastián López](https://scholar.google.es/citations?user=AD16060AAAAJ&hl=es). Investigador principal
+
+[Rafael López Valverde](https://rafalopezv.io/about/). Analista de datos y desarrollador web
+
+
+
+

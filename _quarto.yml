@@ -2,9 +2,29 @@ project:
   type: website
 
 website:
-  title: "webSanturban"
+  repo-url: https://github.com/quarto-dev/quarto-demo
+  repo-actions: [source]
+  title: "Proyecto Santurbán"
+  reader-mode: true
+  sidebar:
+    style: "floating"
+    contents:
+      - section: "Sobre el proyecto"
+        contents:
+          - index.qmd
+      - section: "Sobre la metodología"
+        contents:
+          - extraccion.qmd
+          - organizacion.qmd
+          - hipotesis.qmd
+      - section: "Resultados"
+        contents:
+          - extraccion.qmd
+          - descripcion.qmd
+          - analisis.qmd
   navbar:
-    left:
+    background: "#EDFAFD"
+    right:
       - href: index.qmd
         text: Home
       - about.qmd
