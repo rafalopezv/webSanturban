@@ -14,7 +14,3 @@ El presente proyecto pretende comprender las características del debate medioam
 [Juan Sebastián López](https://scholar.google.es/citations?user=AD16060AAAAJ&hl=es). Investigador principal
 
 [Rafael López Valverde](https://rafalopezv.io/about/). Analista de datos y desarrollador web
-
-
-
-
