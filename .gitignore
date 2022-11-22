@@ -1,0 +1,8 @@
+/.quarto/
+.Rproj.user
+/santurban_data/
+santurban_data
+.Rhistory
+.Rdata
+.httr-oauth
+.DS_Store
