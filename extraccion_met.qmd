@@ -1,0 +1,8 @@
+---
+title: "Extracción de tweets"
+lang: es
+---
+
+## Metodología de extracción
+
+<img src="http://pixfans.com/imagenes/2013/10/seccion_en_construccion.gif">

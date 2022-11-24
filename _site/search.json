@@ -26,5 +26,117 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "extraccion.html",
+    "href": "extraccion.html",
+    "title": "Extracción de tweets",
+    "section": "",
+    "text": "Se han descargado 375117 tweets a partir de la búsqueda de los hasthags #AguaSiOroNo, #conminesamaspobreza, #FueraMinesa, #MineriaBienHecha, #NoLicenciaAMinesaEnSanturban, #NoMasDictaduraMineroEnergetica, #NoPuertoTribuga, #SalvemosSanturban, #Santurban, #SanturbanNoSeToca, #Santurbannosevende, #SanturbanSigueEnRiesgo, #SotoNorte.\n9137 de estos se repitieron en las búsquedas por lo que los tweets únicos son 365980 en un periodo de 2871 días. Es decir, 127 tweets por día.\nHay cinco formas distintas de clasificar a estos tweets, de acuerdo a la forma en la que se publicaron.\n\n\n\nConsisten en las publicaciones de tweets originales. Es decir, que no existen previamente. Estos twets pueden producir nuevas formas de interacción secundarias.\n\nVéase el ejemplo siguiente:\n\n\nConcuerdo con el presidente @petrogustavo. No puede haber minería en #Santurbán y fuentes hídricas.Pero será frustrado ese sueño si el gobierno no hace fuerte inversión en Soto Norte.A las mafias del mercurio judicialización, para las comunidades oportunidades productivas! pic.twitter.com/vQavN5952Q\n\n— Hernan Morantes (@HernanMorantes) October 28, 2022\n\n\n\n\n\nLos retweets son publicaciones primarias compartidas por otro usurio pero sin aañadir ningún texto ni imaagen ni video. Por ejemplo, si se pincha en él para verlo en su versión original se evidencia que tiene 8 retweets.\nUno de ellos proviene de la usuaria MeAmo/TeAmo✨LlamaTrina . Puede compararse lo afirmado accediendo a la cuenta referida @perlajahel\n\n\n\n\nComo puede verse en el tweet de ejemplo, la respuesta es exactamente ello. Una réplica a un tweet primario que utiliza al menos uno de los hashtags utilizados para la búsqueda (#Aguasiorono).\n\n\n#Aguasiorono El agua es fuente de vida, el oro genera conflicto, el agua crea naturaleza y oxígeno, el oro contamina y causa sequía, el agua es para todos el oro es para muy pocos. Por favor mundo compremos artesanías y dejemos el oro fortaleciendo la tierra. Dios nos Bendiga 🙏\n\n— Sergio JRC (@Serjesus24) May 4, 2019\n\n\n\n\n\nEste caso es en esencia un retweet pero que añade texto que además arroba a la cuenta original u otra includia en el tweet original o una tercera\n\n\nAquí, (vestido de civil), paramilitar de @Minesa_Col, tratando de llegar a un acuerdo por las malas con el pueblo @AlcaldiaBGA, para convertir el #ParamoDeSanturban y su quebrada que los abastece de agua, en un botadero de desperdicios tóxicos. #SalvemosSanturban https://t.co/VEPiw2erfj\n\n— MediosMienten (@CLONYHD) February 21, 2020\n\n\n\n\n\nLa cita es eun reweet con un texto original\n\n\nSiganle creyendo a @ELTIEMPO con su \"periodismo\" al servicio del mejor postor.@ComiteSanturban #AguaSíOroNo #Santurbán dizque #felizdiadelperiodista https://t.co/dO89PRTm6p\n\n— MARCO DURÁN cuentero (@ElGarlotero) February 9, 2020\n\n\n\n\n\nLa clasificación anterior es muy importante pues para haacer análisis de texto, se necesita saber que textos son originales y cuales no. Asimismo, paraa hacer un análisis de la capacidad de expandir un mensaje los retweets, las citas y respouestas resultan de particular interés.\nAhora se muestra la estadísitica de la composición de los tweets"
+  },
+  {
+    "objectID": "extraccion.html#replied-to",
+    "href": "extraccion.html#replied-to",
+    "title": "Extracción de tweets",
+    "section": "Replied to",
+    "text": "Replied to\n\n\n#Aguasiorono El agua es fuente de vida, el oro genera conflicto, el agua crea naturaleza y oxígeno, el oro contamina y causa sequía, el agua es para todos el oro es para muy pocos. Por favor mundo compremos artesanías y dejemos el oro fortaleciendo la tierra. Dios nos Bendiga 🙏\n\n— Sergio JRC (@Serjesus24) May 4, 2019"
+  },
+  {
+    "objectID": "extraccion.html#quoted-and-replied-to",
+    "href": "extraccion.html#quoted-and-replied-to",
+    "title": "Extracción de tweets",
+    "section": "Quoted and replied to",
+    "text": "Quoted and replied to"
+  },
+  {
+    "objectID": "extraccion.html#retweets",
+    "href": "extraccion.html#retweets",
+    "title": "Extracción de tweets",
+    "section": "Retweets",
+    "text": "Retweets"
+  },
+  {
+    "objectID": "extraccion.html#null",
+    "href": "extraccion.html#null",
+    "title": "Extracción de tweets",
+    "section": "NULL",
+    "text": "NULL\n\n\n#URGENTE se cayó el Proyecto de explotación de oro en Santurbán. ANLA negó licencia a MINESA por alto impacto ambiental.¡Otro grandioso triunfo ciudadano!Se suma al revés del proyecto Tribugá.Respira Colombia.Primero el agua primero la vida 👏👏👏👏🐝🐝🐝#SanturbanNoSetoca\n\n— Gustavo Bolívar (@GustavoBolivar) October 3, 2020"
+  },
+  {
+    "objectID": "extraccion.html#resultados-primarios",
+    "href": "extraccion.html#resultados-primarios",
+    "title": "Extracción de tweets",
+    "section": "Resultados primarios",
+    "text": "Resultados primarios\n\nConsisten en las publicaciones de tweets originales. Es decir, que no existen previamente. Estos twets pueden producir nuevas formas de interacción secundarias.\n\nVéase el ejemplo siguiente:\n\n\nConcuerdo con el presidente @petrogustavo. No puede haber minería en #Santurbán y fuentes hídricas.Pero será frustrado ese sueño si el gobierno no hace fuerte inversión en Soto Norte.A las mafias del mercurio judicialización, para las comunidades oportunidades productivas! pic.twitter.com/vQavN5952Q\n\n— Hernan Morantes (@HernanMorantes) October 28, 2022"
+  },
+  {
+    "objectID": "extraccion.html#resultado-secundario-retweets",
+    "href": "extraccion.html#resultado-secundario-retweets",
+    "title": "Extracción de tweets",
+    "section": "Resultado secundario: retweets",
+    "text": "Resultado secundario: retweets\nLos retweets son publicaciones primarias compartidas por otro usurio pero sin aañadir ningún texto ni imaagen ni video. Por ejemplo, si se pincha en él para verlo en su versión original se evidencia que tiene 8 retweets.\nUno de ellos proviene de la usuaria MeAmo/TeAmo✨LlamaTrina . Puede compararse lo afirmado accediendo a la cuenta referida @perlajahel"
+  },
+  {
+    "objectID": "extraccion.html#resultado-secundario-respuesta-a",
+    "href": "extraccion.html#resultado-secundario-respuesta-a",
+    "title": "Extracción de tweets",
+    "section": "Resultado secundario: respuesta a",
+    "text": "Resultado secundario: respuesta a\nComo puede verse en el tweet de ejemplo, la respuesta es exactamente ello. Una réplica a un tweet primario que utiliza al menos uno de los hashtags utilizados para la búsqueda (#Aguasiorono).\n\n\n#Aguasiorono El agua es fuente de vida, el oro genera conflicto, el agua crea naturaleza y oxígeno, el oro contamina y causa sequía, el agua es para todos el oro es para muy pocos. Por favor mundo compremos artesanías y dejemos el oro fortaleciendo la tierra. Dios nos Bendiga 🙏\n\n— Sergio JRC (@Serjesus24) May 4, 2019"
+  },
+  {
+    "objectID": "extraccion.html#resultado-secundario-respuesta-y-retweet",
+    "href": "extraccion.html#resultado-secundario-respuesta-y-retweet",
+    "title": "Extracción de tweets",
+    "section": "Resultado secundario: respuesta y retweet",
+    "text": "Resultado secundario: respuesta y retweet\nEste caso es en esencia un retweet pero que añade texto que además arroba a la cuenta original u otra includia en el tweet original o una tercera\n\n\nAquí, (vestido de civil), paramilitar de @Minesa_Col, tratando de llegar a un acuerdo por las malas con el pueblo @AlcaldiaBGA, para convertir el #ParamoDeSanturban y su quebrada que los abastece de agua, en un botadero de desperdicios tóxicos. #SalvemosSanturban https://t.co/VEPiw2erfj\n\n— MediosMienten (@CLONYHD) February 21, 2020"
+  },
+  {
+    "objectID": "extraccion.html#resultado-secundario-cita",
+    "href": "extraccion.html#resultado-secundario-cita",
+    "title": "Extracción de tweets",
+    "section": "Resultado secundario: cita",
+    "text": "Resultado secundario: cita\nLa cita es eun reweet con un texto original\n\n\nSiganle creyendo a @ELTIEMPO con su \"periodismo\" al servicio del mejor postor.@ComiteSanturban #AguaSíOroNo #Santurbán dizque #felizdiadelperiodista https://t.co/dO89PRTm6p\n\n— MARCO DURÁN cuentero (@ElGarlotero) February 9, 2020"
+  },
+  {
+    "objectID": "extraccion.html#resultados-estadísticos-de-twets-primarios-y-secundarios",
+    "href": "extraccion.html#resultados-estadísticos-de-twets-primarios-y-secundarios",
+    "title": "Extracción de tweets",
+    "section": "Resultados estadísticos de twets primarios y secundarios",
+    "text": "Resultados estadísticos de twets primarios y secundarios\nLa clasificación anterior es muy importante pues para haacer análisis de texto, se necesita saber que textos son originales y cuales no. Asimismo, paraa hacer un análisis de la capacidad de expandir un mensaje los retweets, las citas y respouestas resultan de particular interés.\nAhora se muestra la estadísitica de la composición de los tweets"
+  },
+  {
+    "objectID": "extraccion.html#estadística-tweets-extraidos-por-tipo",
+    "href": "extraccion.html#estadística-tweets-extraidos-por-tipo",
+    "title": "Extracción de tweets",
+    "section": "Estadística: tweets extraidos por tipo",
+    "text": "Estadística: tweets extraidos por tipo"
+  },
+  {
+    "objectID": "extraccion.html#estadística-tweets-extraídos-por-tipo",
+    "href": "extraccion.html#estadística-tweets-extraídos-por-tipo",
+    "title": "Extracción de tweets",
+    "section": "Estadística: tweets extraídos por tipo",
+    "text": "Estadística: tweets extraídos por tipo"
+  },
+  {
+    "objectID": "extraccion.html#alcende-de-los-resultados",
+    "href": "extraccion.html#alcende-de-los-resultados",
+    "title": "Extracción de tweets",
+    "section": "Alcende de los resultados",
+    "text": "Alcende de los resultados\nSe han descargado 375117 tweets a partir de la búsqueda de los hasthags #AguaSiOroNo, #conminesamaspobreza, #FueraMinesa, #MineriaBienHecha, #NoLicenciaAMinesaEnSanturban, #NoMasDictaduraMineroEnergetica, #NoPuertoTribuga, #SalvemosSanturban, #Santurban, #SanturbanNoSeToca, #Santurbannosevende, #SanturbanSigueEnRiesgo, #SotoNorte.\n9137 de estos se repitieron en las búsquedas por lo que los tweets únicos son 365980 en un periodo de 2871 días. Es decir, 127 tweets por día.\nHay cinco formas distintas de clasificar a estos tweets, de acuerdo a la forma en la que se publicaron.\n\nResultados primarios\n\nConsisten en las publicaciones de tweets originales. Es decir, que no existen previamente. Estos twets pueden producir nuevas formas de interacción secundarias.\n\nVéase el ejemplo siguiente:\n\n\nConcuerdo con el presidente @petrogustavo. No puede haber minería en #Santurbán y fuentes hídricas.Pero será frustrado ese sueño si el gobierno no hace fuerte inversión en Soto Norte.A las mafias del mercurio judicialización, para las comunidades oportunidades productivas! pic.twitter.com/vQavN5952Q\n\n— Hernan Morantes (@HernanMorantes) October 28, 2022\n\n\n\n\nResultado secundario: retweets\nLos retweets son publicaciones primarias compartidas por otro usurio pero sin aañadir ningún texto ni imaagen ni video. Por ejemplo, si se pincha en él para verlo en su versión original se evidencia que tiene 8 retweets.\nUno de ellos proviene de la usuaria MeAmo/TeAmo✨LlamaTrina . Puede compararse lo afirmado accediendo a la cuenta referida @perlajahel\n\n\n\nResultado secundario: respuesta a\nComo puede verse en el tweet de ejemplo, la respuesta es exactamente ello. Una réplica a un tweet primario que utiliza al menos uno de los hashtags utilizados para la búsqueda (#Aguasiorono).\n\n\n#Aguasiorono El agua es fuente de vida, el oro genera conflicto, el agua crea naturaleza y oxígeno, el oro contamina y causa sequía, el agua es para todos el oro es para muy pocos. Por favor mundo compremos artesanías y dejemos el oro fortaleciendo la tierra. Dios nos Bendiga 🙏\n\n— Sergio JRC (@Serjesus24) May 4, 2019\n\n\n\n\nResultado secundario: respuesta y retweet\nEste caso es en esencia un retweet pero que añade texto que además arroba a la cuenta original u otra includia en el tweet original o una tercera\n\n\nAquí, (vestido de civil), paramilitar de @Minesa_Col, tratando de llegar a un acuerdo por las malas con el pueblo @AlcaldiaBGA, para convertir el #ParamoDeSanturban y su quebrada que los abastece de agua, en un botadero de desperdicios tóxicos. #SalvemosSanturban https://t.co/VEPiw2erfj\n\n— MediosMienten (@CLONYHD) February 21, 2020\n\n\n\n\nResultado secundario: cita\nLa cita es eun reweet con un texto original\n\n\nSiganle creyendo a @ELTIEMPO con su \"periodismo\" al servicio del mejor postor.@ComiteSanturban #AguaSíOroNo #Santurbán dizque #felizdiadelperiodista https://t.co/dO89PRTm6p\n\n— MARCO DURÁN cuentero (@ElGarlotero) February 9, 2020\n\n\n\n\nResultados estadísticos de twets primarios y secundarios\nLa clasificación anterior es muy importante pues para haacer análisis de texto, se necesita saber que textos son originales y cuales no. Asimismo, paraa hacer un análisis de la capacidad de expandir un mensaje los retweets, las citas y respouestas resultan de particular interés.\nAhora se muestra la estadísitica de la composición de los tweets"
+  },
+  {
+    "objectID": "extraccion.html#estadística",
+    "href": "extraccion.html#estadística",
+    "title": "Extracción de tweets",
+    "section": "Estadística",
+    "text": "Estadística\nEn este gráfico se muestran todos los más de 300 mil tweets por el tipo de publicación.\n\n\n\n\n\n\n\nEn este gráfico se muestran todos los más de 300 mil por cada día de su emisión.\nEste gráfico tiene las siguientes posibilidades de interacción:\n\nPase el mouse sobre cualquier región del gráfico para obtener maayor información\nPara hacer zoom sobre alguna región del gráfico, presione el mouse y seleccione el área que quiere ver en mayor detalles. Pude hacer esto más de una vez y revertir los resultados a su estado original\n\n\n\n\n\n\n\n\n\nEn este gráfico se muestran todos los más de 300 mil por cada día de su emisión y pr el tipo de publicación.\nEste gráfico tiene las siguientes posibilidades de interacción:\n\nPase el mouse sobre cualquier región del gráfico para obtener maayor información\nPuede desactivar y re-activar las categorías de la leyenda haciendo click sobre ellas\nPuede posar el mpuse sobre cada línea o categoría de la leyenda para resaltar la categoría deseada\nPara hacer zoom sobre alguna región del gráfico, presione el mouse y seleccione el área que quiere ver en mayor detalles. Pude hacer esto más de una vez y revertir los resultados a su estado original"
+  },
+  {
+    "objectID": "analisis.html",
+    "href": "analisis.html",
+    "title": "Análisis",
+    "section": "",
+    "text": "<img src=“https://www.ahiva.info/Gifs-Animados/Simbolos-y-signos/Construccion-Sites-Obras/Construccion-Sites-Obras-159.gif>"
   }
 ]
