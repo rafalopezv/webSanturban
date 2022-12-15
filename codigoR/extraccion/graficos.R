@@ -42,7 +42,7 @@ df1 %>%
   group_by(fecha) %>% 
   summarise(n = sum(n)) %>% 
   hchart(
-    "line",
+    "area",
     name = "Número de tweets",
     hcaes(
       x = fecha, y = n, 
@@ -53,7 +53,7 @@ df1 %>%
   hc_xAxis(title = list(text = NULL)) %>%
   hc_yAxis(title = list(text = "Número de tweets")) %>%
   hc_plotOptions(line = list(
-    lineWidth = 2,
+    lineWidth = 1,
     connectNulls = F,
     animation = list(
       duration = 3000

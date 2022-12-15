@@ -8,55 +8,115 @@ lang: es
 #| echo: false
 #| message: false
 source("codigoR/extraccion/graficos.R")
+source("codigoR/extraccion/tablaQuien.R")
+source("codigoR/extraccion/graficosHashtags.R")
+source("codigoR/extraccion/graficoWordscloud.R")
+library(downloadthis)
+
 ```
 
+## Alcance de los resultados
 
-## Alcende de los resultados
 
-Se han descargado 375117 tweets a partir de la búsqueda de los hasthags *#AguaSiOroNo, #conminesamaspobreza, #FueraMinesa, #MineriaBienHecha, #NoLicenciaAMinesaEnSanturban, #NoMasDictaduraMineroEnergetica, #NoPuertoTribuga, #SalvemosSanturban, #Santurban, #SanturbanNoSeToca, #Santurbannosevende, #SanturbanSigueEnRiesgo, #SotoNorte*. 
+Se descargaron [375117 tweets](https://docs.google.com/spreadsheets/d/1mC8QxW9HxZxorBivWH1MY-hTXpErCjYN/edit?usp=sharing&ouid=103166560525446543630&rtpof=true&sd=true) a partir de la búsqueda de los hasthags *#AguaSiOroNo, #conminesamaspobreza, #FueraMinesa, #MineriaBienHecha, #NoLicenciaAMinesaEnSanturban, #NoMasDictaduraMineroEnergetica, #NoPuertoTribuga, #SalvemosSanturban, #Santurban, #SanturbanNoSeToca, #Santurbannosevende, #SanturbanSigueEnRiesgo, #SotoNorte*.
 
-**9137** de estos se repitieron en las búsquedas por lo que los tweets únicos son **365980** en un periodo de **2871** días. Es decir, **127 tweets por día**.
+**9137** de estos se repitieron en las búsquedas. Por tanto,  los tweets únicos son **365980** en un periodo de **2871** días. Es decir, **127 tweets por día**.
 
-Hay cinco formas distintas de clasificar a estos tweets, de acuerdo a la forma en la que se publicaron. 
+De acuerdo a la forma en la que se publicaron, existen cinco formas de clasificar estos tweets.
+
+::: callout-note
+13 hashtags encontraron 367 mil tweets en 2871 días. Del 31de diciem bre del 2014 al 10 de noviembre de 2021.
+:::
 
 ### Resultados primarios
 
-- Consisten en las publicaciones de tweets originales. Es decir, que no existen previamente. Estos twets pueden producir nuevas formas de interacción secundarias.
+-   Consisten en las publicaciones de tweets originales. Es decir, que no existen previamente. Estos twets pueden producir nuevas formas de interacción secundarias.
 
 Véase el ejemplo siguiente:
 
-<blockquote class="twitter-tweet"><p lang="es" dir="ltr">Concuerdo con el presidente <a href="https://twitter.com/petrogustavo?ref_src=twsrc%5Etfw">@petrogustavo</a>. No puede haber minería en <a href="https://twitter.com/hashtag/Santurb%C3%A1n?src=hash&amp;ref_src=twsrc%5Etfw">#Santurbán</a> y fuentes hídricas.<br><br>Pero será frustrado ese sueño si el gobierno no hace fuerte inversión en Soto Norte.<br><br>A las mafias del mercurio judicialización, para las comunidades oportunidades productivas! <a href="https://t.co/vQavN5952Q">pic.twitter.com/vQavN5952Q</a></p>&mdash; Hernan Morantes (@HernanMorantes) <a href="https://twitter.com/HernanMorantes/status/1585983884122066946?ref_src=twsrc%5Etfw">October 28, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet">
 
+<p lang="es" dir="ltr">
 
+Concuerdo con el presidente <a href="https://twitter.com/petrogustavo?ref_src=twsrc%5Etfw">@petrogustavo</a>. No puede haber minería en <a href="https://twitter.com/hashtag/Santurb%C3%A1n?src=hash&amp;ref_src=twsrc%5Etfw">#Santurbán</a> y fuentes hídricas.<br><br>Pero será frustrado ese sueño si el gobierno no hace fuerte inversión en Soto Norte.<br><br>A las mafias del mercurio judicialización, para las comunidades oportunidades productivas! <a href="https://t.co/vQavN5952Q">pic.twitter.com/vQavN5952Q</a>
+
+</p>
+
+--- Hernan Morantes (@HernanMorantes) <a href="https://twitter.com/HernanMorantes/status/1585983884122066946?ref_src=twsrc%5Etfw">October 28, 2022</a>
+
+</blockquote>
+
+```{=html}
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```
 ### Resultado secundario: retweets
 
 Los retweets son publicaciones primarias compartidas por otro usurio pero sin aañadir ningún texto ni imaagen ni video. Por ejemplo, si se pincha en él para verlo en su versión original se evidencia que tiene **8 retweets**.
 
-Uno de ellos proviene de la usuaria **MeAmo/TeAmo✨LlamaTrina** . Puede compararse lo afirmado accediendo a la cuenta referida [@perlajahel](https://twitter.com/perlajahel) 
+Uno de ellos proviene de la usuaria **MeAmo/TeAmo✨LlamaTrina** . Puede compararse lo afirmado accediendo a la cuenta referida [\@perlajahel](https://twitter.com/perlajahel)
 
-<img src="img/extraccion/retweet.png" width="70%">
+<img src="img/extraccion/retweet.png" width="70%"/>
 
 ### Resultado secundario: respuesta a
 
-Como puede verse en el tweet de ejemplo, la respuesta es exactamente ello. Una réplica a un tweet primario que utiliza al menos uno de los **hashtags** utilizados para la búsqueda (#Aguasiorono). 
+Como puede verse en el tweet de ejemplo, la respuesta es exactamente ello. Una réplica a un tweet primario que utiliza al menos uno de los **hashtags** utilizados para la búsqueda (#Aguasiorono).
 
-<blockquote class="twitter-tweet"><p lang="es" dir="ltr"><a href="https://twitter.com/hashtag/Aguasiorono?src=hash&amp;ref_src=twsrc%5Etfw">#Aguasiorono</a> El agua es fuente de vida, el oro genera conflicto, el agua crea naturaleza y oxígeno, el oro contamina y causa sequía, el agua es para todos el oro es para muy pocos. Por favor mundo compremos artesanías y dejemos el oro fortaleciendo la tierra. Dios nos Bendiga 🙏</p>&mdash; Sergio JRC (@Serjesus24) <a href="https://twitter.com/Serjesus24/status/1124692880516366337?ref_src=twsrc%5Etfw">May 4, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet">
 
+<p lang="es" dir="ltr">
+
+<a href="https://twitter.com/hashtag/Aguasiorono?src=hash&amp;ref_src=twsrc%5Etfw">#Aguasiorono</a> El agua es fuente de vida, el oro genera conflicto, el agua crea naturaleza y oxígeno, el oro contamina y causa sequía, el agua es para todos el oro es para muy pocos. Por favor mundo compremos artesanías y dejemos el oro fortaleciendo la tierra. Dios nos Bendiga 🙏
+
+</p>
+
+--- Sergio JRC (@Serjesus24) <a href="https://twitter.com/Serjesus24/status/1124692880516366337?ref_src=twsrc%5Etfw">May 4, 2019</a>
+
+</blockquote>
+
+```{=html}
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```
 ### Resultado secundario: respuesta y retweet
 
 Este caso es en esencia un retweet pero que añade texto que además *arroba* a la cuenta original u otra includia en el tweet original o una tercera
 
-<blockquote class="twitter-tweet"><p lang="es" dir="ltr">Aquí, (vestido de civil), paramilitar de <a href="https://twitter.com/Minesa_Col?ref_src=twsrc%5Etfw">@Minesa_Col</a>, tratando de llegar a un acuerdo por las malas con el pueblo <a href="https://twitter.com/AlcaldiaBGA?ref_src=twsrc%5Etfw">@AlcaldiaBGA</a>, para convertir el <a href="https://twitter.com/hashtag/ParamoDeSanturban?src=hash&amp;ref_src=twsrc%5Etfw">#ParamoDeSanturban</a> y su quebrada que los abastece de agua, en un botadero de desperdicios tóxicos. <a href="https://twitter.com/hashtag/SalvemosSanturban?src=hash&amp;ref_src=twsrc%5Etfw">#SalvemosSanturban</a> <a href="https://t.co/VEPiw2erfj">https://t.co/VEPiw2erfj</a></p>&mdash; MediosMienten (@CLONYHD) <a href="https://twitter.com/CLONYHD/status/1230824266964361216?ref_src=twsrc%5Etfw">February 21, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet">
 
+<p lang="es" dir="ltr">
+
+Aquí, (vestido de civil), paramilitar de <a href="https://twitter.com/Minesa_Col?ref_src=twsrc%5Etfw">@Minesa_Col</a>, tratando de llegar a un acuerdo por las malas con el pueblo <a href="https://twitter.com/AlcaldiaBGA?ref_src=twsrc%5Etfw">@AlcaldiaBGA</a>, para convertir el <a href="https://twitter.com/hashtag/ParamoDeSanturban?src=hash&amp;ref_src=twsrc%5Etfw">#ParamoDeSanturban</a> y su quebrada que los abastece de agua, en un botadero de desperdicios tóxicos. <a href="https://twitter.com/hashtag/SalvemosSanturban?src=hash&amp;ref_src=twsrc%5Etfw">#SalvemosSanturban</a> <a href="https://t.co/VEPiw2erfj">https://t.co/VEPiw2erfj</a>
+
+</p>
+
+--- MediosMienten (@CLONYHD) <a href="https://twitter.com/CLONYHD/status/1230824266964361216?ref_src=twsrc%5Etfw">February 21, 2020</a>
+
+</blockquote>
+
+```{=html}
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```
 ### Resultado secundario: cita
 
-La cita es eun reweet con un texto original 
+La cita es eun reweet con un texto original
 
-<blockquote class="twitter-tweet"><p lang="es" dir="ltr">Siganle creyendo a <a href="https://twitter.com/ELTIEMPO?ref_src=twsrc%5Etfw">@ELTIEMPO</a> con su &quot;periodismo&quot; al servicio del mejor postor.<a href="https://twitter.com/ComiteSanturban?ref_src=twsrc%5Etfw">@ComiteSanturban</a> <a href="https://twitter.com/hashtag/AguaS%C3%ADOroNo?src=hash&amp;ref_src=twsrc%5Etfw">#AguaSíOroNo</a> <a href="https://twitter.com/hashtag/Santurb%C3%A1n?src=hash&amp;ref_src=twsrc%5Etfw">#Santurbán</a> dizque <a href="https://twitter.com/hashtag/felizdiadelperiodista?src=hash&amp;ref_src=twsrc%5Etfw">#felizdiadelperiodista</a> <a href="https://t.co/dO89PRTm6p">https://t.co/dO89PRTm6p</a></p>&mdash; MARCO DURÁN cuentero (@ElGarlotero) <a href="https://twitter.com/ElGarlotero/status/1226630269089861632?ref_src=twsrc%5Etfw">February 9, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet">
 
+<p lang="es" dir="ltr">
+
+Siganle creyendo a <a href="https://twitter.com/ELTIEMPO?ref_src=twsrc%5Etfw">@ELTIEMPO</a> con su "periodismo" al servicio del mejor postor.<a href="https://twitter.com/ComiteSanturban?ref_src=twsrc%5Etfw">@ComiteSanturban</a> <a href="https://twitter.com/hashtag/AguaS%C3%ADOroNo?src=hash&amp;ref_src=twsrc%5Etfw">#AguaSíOroNo</a> <a href="https://twitter.com/hashtag/Santurb%C3%A1n?src=hash&amp;ref_src=twsrc%5Etfw">#Santurbán</a> dizque <a href="https://twitter.com/hashtag/felizdiadelperiodista?src=hash&amp;ref_src=twsrc%5Etfw">#felizdiadelperiodista</a> <a href="https://t.co/dO89PRTm6p">https://t.co/dO89PRTm6p</a>
+
+</p>
+
+--- MARCO DURÁN cuentero (@ElGarlotero) <a href="https://twitter.com/ElGarlotero/status/1226630269089861632?ref_src=twsrc%5Etfw">February 9, 2020</a>
+
+</blockquote>
+
+```{=html}
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```
 ### Resultados estadísticos de twets primarios y secundarios
 
-La clasificación anterior es muy importante pues para haacer análisis de texto, se necesita saber que textos son originales y cuales no. Asimismo, paraa hacer un análisis de la capacidad de expandir un mensaje los retweets, las citas y respouestas resultan de particular interés. 
+La clasificación anterior es muy importante pues para hacer análisis de texto, se necesita saber que textos son originales y cuales no. Asimismo, paraa hacer un análisis de la capacidad de expandir un mensaje los retweets, las citas y respouestas resultan de particular interés.
 
 Ahora se muestra la estadísitica de la composición de los tweets
 
@@ -73,12 +133,12 @@ g1
 
 <br>
 
-En este gráfico se muestran todos los más de 300 mil por cada día de su emisión. 
+En este gráfico se muestran todos los más de 300 mil por cada día de su emisión.
 
 Este gráfico tiene las siguientes posibilidades de interacción:
 
-- Pase el mouse sobre cualquier región del gráfico para obtener maayor información
-- Para hacer zoom sobre alguna región del gráfico, presione el mouse y seleccione el área que quiere ver en mayor detalles. Pude hacer esto más de una vez y revertir los resultados a su estado original
+-   Pase el mouse sobre cualquier región del gráfico para obtener maayor información
+-   Para hacer zoom sobre alguna región del gráfico, haga click y seleccione el área que quiere ver en mayor detalles. Puede hacer esto más de una vez y revertir los resultados a su estado original
 
 ```{r}
 #| include: true
@@ -90,14 +150,14 @@ g2
 
 <br>
 
-En este gráfico se muestran todos los más de 300 mil por cada día de su emisión y pr el tipo de publicación. 
+En este gráfico se muestran todos los más de 300 mil por cada día de su emisión y pr el tipo de publicación.
 
 Este gráfico tiene las siguientes posibilidades de interacción:
 
-- Pase el mouse sobre cualquier región del gráfico para obtener maayor información
-- Puede desactivar y re-activar las categorías de la leyenda haciendo click sobre ellas
-- Puede posar el mpuse sobre cada línea o categoría de la leyenda para resaltar la categoría deseada
-- Para hacer zoom sobre alguna región del gráfico, presione el mouse y seleccione el área que quiere ver en mayor detalles. Pude hacer esto más de una vez y revertir los resultados a su estado original
+-   Pase el mouse sobre cualquier región del gráfico para obtener mayor información
+-   Puede desactivar y re-activar las categorías de la leyenda haciendo click sobre ellas
+-   Puede posar el mouse sobre cada línea o categoría de la leyenda para resaltar la categoría deseada
+-   Para hacer zoom sobre alguna región del gráfico, haga click y seleccione el área que quiere ver en mayor detalles. Puede hacer esto más de una vez y revertir los resultados a su estado original
 
 ```{r}
 #| include: true
@@ -107,13 +167,122 @@ Este gráfico tiene las siguientes posibilidades de interacción:
 g3
 ```
 
+::: callout-note
+Tres días concentran 29% de los tweets contenidos en 2871 días analizados. El 28, 29 y 30 de Julio de 2022
+:::
+
+## ¿Qué cuentas son las más influyentes?
+
+Para este ejercicio se toman en cuenta únicamente los tweeets primarios bajo el entendido que son estos que generan las distintas reacciones y se muestran solas las cuentas que generaron el 50% de las reacciones. 
+
+```{r}
+#| include: true
+#| echo: false
+#| message: false
+tabla_quien
+```
+
+<center>
+
+Descargar tabla completa aquí
+
+```{r}
+#| include: true
+#| echo: false
+#| message: false
+temp1 %>% 
+  download_this(
+    output_name = "quienes_generan",
+    output_extension = ".xls",
+    button_label = "Descargar el excel",
+    button_type = "default",
+    has_icon = TRUE,
+    icon = "fa fa-save",
+    
+  )
+```
+
+</center>
 
 
+## Contenidos
+
+El análisis de contenidos se hará de tres formas: i) estudiando las etiquetas, ii) con las palabras más usadas y con iii) las frases más usadas
+
+### Etiquetas
+
+Para esta parte se utilizaron los ~360 mil tweets, es decir, incluyendo todos los tipos de tweets. 
+
+Se extrajeron los hashtags de aquellos tweets que los contenías. 
+
+::: callout-note
+De ~365 mil tweets ~262 mil utilizan al menos un hashtag (71%). En total suman 13876 hashtags, de ellos 50 concentran el 50% del uso total de hasthags. En la tabla siguiente se meustran los hashtags que concentran el 60%. Para ver todos los +-13 mil hasthags puede descargarse el archivo el pinchando el link debajo del gráfico.
+:::
 
 
+```{r}
+#| include: true
+#| echo: false
+#| message: false
+
+tabla_hashtags
+```
+
+<center>
+
+```{r}
+#| include: true
+#| echo: false
+#| message: false
+temp %>% 
+  download_this(
+    output_name = "hashtags",
+    output_extension = ".xls",
+    button_label = "Descargar el excel",
+    button_type = "default",
+    has_icon = TRUE,
+    icon = "fa fa-save",
+    
+  )
+```
+
+</center>
+
+## Palabras más usadas
+
+En esta parte se analizan todos los tipos de tweets excepto los retweets  en el entendido que estos textos solo multiplicarían el número de palabras.
+
+::: callout-note
+Los 67563 tweets que producen contenidos únicos se generan con 1.4 millones de palabras
+:::
+
+De las palabras únicas detectadas se quitaron los hashtags y quedaron cerca de 95 mil palabras utilizadas. De ellaas se muestran a continuación  ~207 que acumulan el 20% de los casos.
+
+```{r}
+#| include: true
+#| echo: false
+#| message: false
+palabras
+```
 
 
+<center>
 
+```{r}
+#| include: true
+#| echo: false
+#| message: false
+palabras_tabla %>% 
+  download_this(
+    output_name = "palabras",
+    output_extension = ".xls",
+    button_label = "Descargar lista completa de palabras",
+    button_type = "default",
+    has_icon = TRUE,
+    icon = "fa fa-save",
+  )
+```
 
+</center>
 
 

@@ -2,7 +2,7 @@
 library(tidyverse)
 
 # de json a data frame: data_
- list.files(pattern = "data_", recursive = T) %>% 
+list.files(pattern = "data_", recursive = T) %>% 
    map_dfr(., jsonlite::fromJSON) -> df
  
 #-----------------
@@ -40,6 +40,38 @@ df %>%
      )
    ) -> df
 
+# ver si id estan en base de users
+users <- read_rds("santurban_data/base_usuarios.Rds")
+
+# selecionar las columnas que no son un data frame pra unión con basae central
+users %>%
+  select(
+    users %>% 
+      map(., class) %>% 
+      unlist() %>% 
+      unname() %>% 
+      str_detect(., pattern = "data.frame", negate = T) %>% 
+      which()
+  ) %>% 
+  rename(
+    author_id = id,
+    account_created_at = created_at
+  ) %>% 
+  left_join(df, .) -> df
+
+# corregir formato de fecha de "account_created_at"
+df %>% 
+  mutate(
+    account_created_at = gsub("T", " ", .$account_created_at) %>% as.POSIXct() - 5*3600,
+    fecha = as.Date(account_created_at)
+  ) -> df
+  
+
+# exportar base general
+df %>% 
+  write_rds("santurban_data/dataLimpia/dataLimpiaGeneral.rds")
+
+
 # expotar datos para graficas historicas de tipo de tweets
 df %>%  
   janitor::tabyl(tipo_tweet) %>% 
@@ -57,33 +89,4 @@ df %>%
   ) %>% 
   mutate_if(is.numeric, round, 3) %>% view()
   write_rds("santurban_data/paraGraficos/agregadoTipoDia.rds")
-
-# de json a data frame: users_
-temp <- list.files(pattern = "users_", recursive = T)
-meta <- map(temp, jsonlite::fromJSON)
-
-# verificar si la lista 1 de la lista meta tiene la misma estructura
-map(meta, ~.[[1]]) %>% map(., colnames) %>% map(., sort) %>% unlist() %>% 
-  unique()
-
-# unir metadata de la lista 1 de meta
-map_dfr(meta, ~.[[1]]) -> metaData
-
-# verificar si la lista 2 de la lista meta tiene la misma estructura
-(map(meta, ~.[[2]]) %>% map(., colnames) %>% map(., sort) %>% unlist() %>% 
-    unique()) %in% colnames(tweets)
-
-map_dfr(meta, ~.[[2]]) -> metaData1 # unir con tweets
-
-
-# verificar si la lista 3 de la lista meta tiene la misma estructura
-contres <- (map(meta, length) %>% unlist == 3) %>% which(.)
-
-map(meta[contres], ~.[[3]]) %>% map(., colnames) %>% map(., sort) %>% unlist() %>% 
-  unique
-
-map(meta[contres], ~.[[3]]) %>% map(., colnames) %>% map(., sort) %>% unlist() %>% 
-  unique
-
-map_dfr(meta[contres], ~.[[3]]) -> metaData2 # unir con tweets
 

@@ -5,7 +5,7 @@ lang: es
 
 ## Introducción
 
-El presente proyecto pretende comprender las características del debate medioambiental presente en Twitter respecto a las tentativas de explotación minera en el Páramo de Santurbán en Colombia. El análisis de los debates se realizará a partir de la extracción de todos los tweets encontrados bajo una serie de etiquetas o 'hashtags' entre los enero de 2015 y noviembre de 2022.
+El presente proyecto pretende comprender las características del debate medioambiental presente en Twitter respecto a las tentativas de explotación minera en el Páramo de Santurbán en Colombia. El análisis de los debates se realizará a partir de la extracción de todos los tweets encontrados bajo una serie de etiquetas o 'hashtags' entre enero de 2015 y noviembre de 2022.
 
 ## Alcances
 
@@ -17,6 +17,6 @@ La descarga de tweets se hizo utilizando la [API para investigación académica 
 
 ## Responsables
 
-[PhD. Juan Sebastián López](https://scholar.google.es/citations?user=AD16060AAAAJ&hl=es). Investigador principal
+[PhD. Juan Sebastián López](https://scholar.google.es/citations?user=AD16060AAAAJ&hl=es) & [Sergio Alvarado](https://scholar.google.es/citations?user=Y8ZNbIMAAAAJ&hl=es). Investigadores principales
 
-[MPP. Rafael López Valverde](https://rafalopezv.io/about/). Analista de datos y desarrollador web
+[MPP. Rafael López Valverde](https://rafalopezv.io/about/). Analista de datos y desarrollador web.
